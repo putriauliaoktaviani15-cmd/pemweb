@@ -1,0 +1,222 @@
+/* Navigasi utama */
+.navbar {
+    background-color: #4a1a1a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+/* Menu navigasi */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+    white-space: nowrap;
+    padding: 10px 15px;
+    flex-shrink: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Garis pemisah setiap navigasi*/
+.navbar a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 25px;
+    width: 1px;
+
+    background-color: rgba(243, 243, 243, 0.5);
+}
+
+/*Efek saat kursor diarahkan ke menu navigasi*/
+.navbar a:hover {
+    background-color: #9f3f6a;
+    border-radius: 5px;
+}
+
+
+/* Mengatur tampilan seluruh halaman */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Mengatur judul utama */
+h1 { 
+    text-align: center;
+    color: #1e3a5f;
+    font-size: 36px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 15px;
+}
+
+/* Mengatur judul Target Belajar */
+h2 {
+    color: #2980b9;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Mengatur paragraf */
+p {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* Mengatur daftar teknologi */
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Mengatur daftar target belajar */
+ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Mengatur jarak setiap item */
+li {
+    padding: 8px 0;
+}
+
+/* Mengatur warna saat kursor diarahkan */
+li:hover {
+    color: #2980b9;
+}
+
+/* Mengatur jarak antarbagian */
+h1,
+h2 {
+    line-height: 1.3;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.foto-container {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.foto-container img {
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+/* Informasi foto */
+.info-foto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.4s;
+}
+
+/* Informasi muncul saat kursor diarahkan ke foto */
+.foto-container:hover .info-foto {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Efek foto saat disentuh kursor */
+.foto-container:hover img {
+    transform: scale(1.05);
+}
+
+.info-foto h3 {
+    margin: 0 0 5px;
+}
+
+.info-foto p {
+    margin: 0;
+    font-size: 14px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+ 
+/* Membuat kotak dalam tabel*/
+table {
+    border-collapse: separate;
+    border-spacing: 4px;
+    border: 2px solid gray;
+    padding: 3px
+}
+
+/* Garis pada setiap sel tabel */
+th, td {
+    border: 1 px solid gray;
+    padding: 5px;
+}
+
+/* Mengubah background */
+body {
+    background-color: lightyellow !important;
+}
+
+/* Membuat sel didalam tabel */
+table {
+    border: 2px solid #555 !important;
+    border-collapse: separate !important;
+    border-spacing: 4px !important;
+    padding: 3px !important;
+}
+
+th,
+td {
+    border: 1px solid #555 !important;
+    padding: 5px !important;
+}
+
+/* Membuat caption menjadi bold */
+caption {
+    font-weight: bold;
+}
