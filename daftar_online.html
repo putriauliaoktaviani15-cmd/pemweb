@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF -8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir Pendaftaran</title>
+
+        <link rel="stylesheet" href="style.css">
+        </head>
+        
+        <style>
+            body {
+                font-family: "Times New Roman", Times, serif;
+            }
+        </style>
+        <style>
+            form {
+                width: 400px;
+                margin: 0 auto;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            input[type="number"],
+            input[type="date"],
+            select,
+            textarea {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button {
+                padding: 10px 20px;
+                background-color: #4a1a1a;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #4a1a1a;
+                color: white;
+            }
+        </style>
+        <body>
+            <nav class="navbar">
+                <a href="index.html">Profil Mahasiswa</a>
+                <a href="about-me.html">Tentang Saya</a>
+                <a href="hobbies.html">Hobi</a>
+                <a href="educations.html">Riwayat Pendidikan</a>
+                <a href="course-schedule.html">Jadwal Kuliah</a>
+                <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
+                <a href="table2.html">Jadwal Perkuliahan Komputer</a>
+                <a href="daftar_online.html">Formulir Pendaftaran</a>
+            </nav>
+            
+        <div class="container">
+            <hr class="garis-atas">
+        </div>
+
+            <!-- Formulir Pendaftaran -->
+            <h1>Formulir Pendaftaran</h1>
+
+            <!-- Nama -->
+            <from>
+            <!--Nama-->
+            <br>
+            <label>Nama Lengkap</label><br>
+            <input placeholder="Masukkan nama" type="text">
+
+            <!--Email-->
+            <br><br>
+            <label>Email</label><br>
+            <input placeholder="nama@gmail.com" type="email">
+
+            <!--Password-->
+            <br><br>
+            <label>Password</label><br>
+            <input placeholder="******" type="password">
+
+            <!--Umur-->
+            <br><br>
+            <label>Umur</label><br>
+            <input placeholder="Tentukan umur" type="number">
+
+            <!--Tanggal Lahir-->
+            <br><br>
+            <label>Tanggal Lahir</label><br>
+            <input type="date">
+
+            <!--Jenis Kelamin-->
+            <br><br>
+            <label>Jenis Kelamin</label><br>
+            <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+            <input type="radio" name="gender" value="Perempuan"> Perempuan
+
+            <!--Hobi-->
+            <br><br>
+            <label>Hobi</label><br>
+            <input type="checkbox" name="hobi" value="Coding"> Coding
+            <input type="checkbox" name="hobi" value="Gaming"> Gaming
+            <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+
+            <!--Jurusan-->
+            <br><br>
+            <label>Jurusan</label><br>
+            <select placeholder="-- Jurusan --" name="jurusan">
+                <option>--Pilih Jurusan--</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Teknik Komputer dan Jaringan">Teknik Komputer dan Jaringan</option>
+            </select>
+
+            <!--Alamat-->
+            <br><br>
+            <label>Alamat</label><br>
+            <textarea placeholder="Masukkan alamat" name="alamat" rows="4" cols="50"></textarea>
+
+            <!--Foto-->
+            <br><br>
+            <label>Foto</label><br>
+            <input type="file" name="foto">
+
+            <!--Website-->
+            <br><br>
+            <label>Website</label><br>
+            <input placeholder="https://www.example.com" type="url">
+
+            <!--Tombol Kirim dan Reset-->
+            <br><br>
+            <button type="submit">Kirim</button>
+            <button type="reset">Reset</button>
+            </from>
+
+        <div class="container">
+            <hr class="garis-bawah">
+        </div>
+
+        </body>
+</html>
+            

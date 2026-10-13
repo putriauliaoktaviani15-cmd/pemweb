@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Perkuliahan Komputer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        table {
+            width: 640px;
+            border: 1px solid #777;
+            border-spacing: 2px;
+            padding: 2px;
+        }
+
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid #888;
+            padding: 4px;
+            font-size: 20px;
+        }
+        th {
+            background-color: #4a1a1a;
+            color: white;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
+        .hari {
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        .jam {
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .keterangan {
+            text-align: left;
+        }
+
+        .catatan {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .nowrap {
+            white-space: nowrap;
+        }
+    </style>
+    <style>
+        h1, h2 {
+            line-height: 1.3;
+        }
+        </style>
+       
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html">Profil Mahasiswa</a>
+        <a href="about-me.html">Tentang Saya</a>
+        <a href="hobbies.html">Hobi</a>
+        <a href="educations.html">Riwayat Pendidikan</a>
+        <a href="course-schedule.html">Jadwal Kuliah</a>
+        <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
+        <a href="table2.html">Jadwal Perkuliahan Komputer</a>
+        <a href="daftar_online.html">Formulir Pendaftaran</a>
+    </nav>
+
+    <div class="container">
+        <hr class="garis-atas">
+    </div>
+
+    <h1>Jadwal Perkuliahan Komputer</h1>
+
+<table>
+    <caption>Jadwal Perkuliahan Komputer</caption>
+
+    <thead>
+        <tr>
+            <th bgcolor="#0000FF" rowspan="2">Hari</th>
+            <th bgcolor="#0000FF" colspan="2">Pagi</th>
+            <th bgcolor="#0000FF" colspan="2">Siang</th>
+            <th bgcolor="#0000FF" rowspan="2">Keterangan</th>
+        </tr>
+        <tr>
+            <th bgcolor="#00FF00" class="jam">08:00 - 10:00</th>
+            <th bgcolor="#00FF00" class="jam">10:00 - 12:00</th>
+            <th bgcolor="#00FF00" class="jam">13:00 - 15:00</th>
+            <th bgcolor="#00FF00" class="jam">15:00 - 17:00</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- Senin -->
+        <tr>
+            <td class="hari" rowspan="2">Senin</td>
+            <td>Web 1</td>
+            <td>Web 2</td>
+            <td colspan="2">Praktikum Basis Data</td>
+            <td class="keterangan" rowspan="2">Normal</td>
+        </tr>
+        <tr>
+            <td colspan="2">Praktikum Pemrograman</td>
+            <td>Jaringan</td>
+            <td>Jaringan</td>
+        </tr>
+
+        <!-- Selasa -->
+        <tr>
+            <td class="hari">Selasa</td>
+            <td colspan="2">Seminar</td>
+            <td>Mobile</td>
+            <td>Mobile</td>
+            <td class="keterangan">Seminar Pagi</td>
+        </tr>
+
+        <!-- Rabu -->
+        <tr>
+            <td class="hari" rowspan="2">Rabu</td>
+            <td>Web</td>
+            <td>Web</td>
+            <td colspan="2" rowspan="2" class="nowrap">
+                Maintenance Laboratorium
+            </td>
+            <td class="keterangan" rowspan="2">Maintenance</td>
+        </tr>
+        <tr>
+            <td colspan="2">Basis Data</td>
+        </tr>
+
+        <!-- Kamis -->
+        <tr>
+            <td class="hari">Kamis</td>
+            <td>Algoritma</td>
+            <td>Algoritma</td>
+            <td colspan="2">Praktikum Jaringan</td>
+            <td class="keterangan">Normal</td>
+        </tr>
+
+        <!-- Catatan -->
+        <tr>
+            <td bgcolor="#C0C0C0" colspan="5" class="catatan"><b>Catatan</b></td>
+            <td bgcolor="#C0C0C0" class="keterangan nowrap"><b>Jadwal dapat berubah</b></td>
+        </tr>
+    </tbody>
+</table>
+
+    <div class="container">
+        <hr class="garis-bawah">
+    </div>
+
+</body>
+</html>
