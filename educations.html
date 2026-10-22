@@ -1,122 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riwayat Pendidikan</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="ico" href="icon putri.ico">
 </head>
+<body>
 
-     <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #4a1a1a;
-            color: white;
-        }
-        </style>
-     <style>
-        body {
-            font-family: "Times New Roman", Times, serif;
-        }
-
-        table {
-            width: 640px;
-            border: 1px solid #777;
-            border-spacing: 2px;
-            padding: 2px;
-        }
-
-        caption {
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        th, td {
-            border: 1px solid #888;
-            padding: 4px;
-            font-size: 20px;
-        }
-
-        th {
-            text-align: center;
-        }
-    </style>
-
-    <body>
+    <!-- Navigasi -->
     <nav class="navbar">
         <a href="index.html">Profil Mahasiswa</a>
         <a href="about-me.html">Tentang Saya</a>
         <a href="hobbies.html">Hobi</a>
-        <a href="educations.html">Riwayat Pendidikan</a>
+        <a href="educations.html" class="active">Riwayat Pendidikan</a>
         <a href="course-schedule.html">Jadwal Kuliah</a>
         <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
         <a href="table2.html">Jadwal Perkuliahan Komputer</a>
         <a href="daftar_online.html">Formulir Pendaftaran</a>
+        <a href="table3.html">Laporan Nilai Mahasiswa TI-2024</a>
     </nav>
+ <div class="tabel-wrapper">
+    <!-- Konten Riwayat Pendidikan -->
+    <main class="pendidikan-container">
+        <h1>Riwayat Pendidikan</h1>
 
-    <div class="container">
-        <hr class="garis-atas">
-    </div>
+        <div class="pendidikan-hiasan">
+            <span></span>
+            ♡ ˚ ♡ ˚ ♡
+            <span></span>
+        </div>
 
-    <h1>Riwayat Pendidikan</h1>
+        <div class="pendidikan-card">
+                <table class="tabel-pendidikan">
 
-    <!-- Tabel Riwayat Pendidikan -->
-    <table border="1">
-        <caption>Riwayat Pendidikan</caption>
-        <thead>
-            <tr>
-                <th bgcolor="yellow">No.</th>
-                <th bgcolor="yellow">Jenjang</th>
-                <th bgcolor="yellow">Nama Sekolah</th>
-                <th bgcolor="yellow">Tahun</th>
-            </tr>
-        </thead>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Jenjang</th>
+                            <th>Nama Sekolah</th>
+                            <th>Tahun</th>
+                        </tr>
+                    </thead>
 
-        <tbody>
-            <!-- Data Pendidikan No 1-->
-            <tr>
-                <td>1</td>
-                <td>SD</td>
-                <td>SD Negeri 01</td>
-                <td>2010 - 2016</td>
-            </tr>
-            <!-- Data Pendidikan No 2 -->
-            <tr>
-                <td>2</td>
-                <td>SMP</td>
-                <td>SMP Negeri 01</td>
-                <td>2016 - 2019</td>
-            </tr>
-            <!-- Data Pendidikan No 3 -->
-            <tr>
-                <td>3</td>
-                <td>SMA</td>
-                <td>SMA Negeri 01</td>
-                <td>2019 - 2022</td>
-            </tr>
-            <!-- Data Pendidikan No 4 -->
-            <tr>
-                <td>4</td>
-                <td>S1</td>
-                <td>Universitas ABC</td>
-                <td>2022 - Sekarang</td>
-            </tr>
-        </tbody>
-    </table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>SD</td>
+                            <td>SD Negeri Kihiyang</td>
+                            <td>2014 - 2019</td>
+                        </tr>
 
-    <div class="container">
-        <hr class="garis-bawah">
-    </div>
+                        <tr>
+                            <td>2</td>
+                            <td>SMP</td>
+                            <td>SMP Negeri 1 Binong</td>
+                            <td>2019 - 2022</td>
+                        </tr>
 
+                        <tr>
+                            <td>3</td>
+                            <td>SMA</td>
+                            <td>SMA Swasta At-Tawazun</td>
+                            <td>2023 - 2025</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>S1</td>
+                            <td>Universitas Mandiri</td>
+                            <td>2026 - Sekarang</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            
+
+        </div>
+    </main>
+ </div>
 </body>
+</html>
+
 
 
 
