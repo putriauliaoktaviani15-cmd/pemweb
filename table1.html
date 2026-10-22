@@ -1,181 +1,114 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jadwal Perkuliahan Semester 1</title>
-        <link rel="stylesheet" href="style.css">
-        
-        <style>
-         body {
-             font-family: "Times New Roman", Times, serif;
-              } 
-              
-              table { 
-                width: 630px;
-                border: 1px solid #fff5f5; 
-                border-spacing: 2px; 
-                padding: 3px; 
-                } 
-                
-                caption { 
-                    font-size: 22px; 
-                    padding-bottom: 3px; 
-                } 
-                
-                th, td { 
-                    border: 1px solid #777; 
-                    padding: 4px; font-size: 20px; 
-                } 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Perkuliahan Semester 1</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="ico" href="icon putri.ico">
+</head>
 
-                th {
-                    background-color: #4a1a1a;
-                    color: white;
-                }
-                
-                th { 
-                    text-align: center; 
-                } 
-                
-                td { 
-                    vertical-align: middle; 
-                } 
-                
-                .hari { 
-                    text-align: left; 
-                } 
-                
-                .jam { 
-                    white-space: nowrap; 
-                } 
-                
-                .kode { 
-                    text-align: center; 
-                    white-space: nowrap; 
-                } 
-                
-                .ruangan { 
-                    white-space: nowrap; 
-                } 
-                
-                .total { 
-                    text-align: center; 
-                } 
-                </style> 
-                <style>
-                h1, h2 {
-                    line-height: 1.3;
-                }
-                </style>
-                <style>
-                body {  
-                    font-family: "Times New Roman", Times, serif;
-                }       
-                </style>
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <a href="index.html">Profil Mahasiswa</a>
+        <a href="about-me.html">Tentang Saya</a>
+        <a href="hobbies.html">Hobi</a>
+        <a href="educations.html">Riwayat Pendidikan</a>
+        <a href="course-schedule.html">Jadwal Kuliah</a>
+        <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
+        <a href="table2.html">Jadwal Perkuliahan Komputer</a>
+        <a href="daftar_online.html">Formulir Pendaftaran</a>
+        <a href="table3.html">Laporan Nilai Mahasiswa TI-2024</a>
+    </nav>
 
-    </head> 
-    
-    <body> 
-        <nav class="navbar">
-            <a href="index.html">Profil Mahasiswa</a>
-            <a href="about-me.html">Tentang Saya</a>
-            <a href="hobbies.html">Hobi</a>
-            <a href="educations.html">Riwayat Pendidikan</a>
-            <a href="course-schedule.html">Jadwal Kuliah</a>
-            <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
-            <a href="table2.html">Jadwal Perkuliahan Komputer</a>
-            <a href="daftar_online.html">Formulir Pendaftaran</a>
-        </nav>
-
-    <div class="container">
-        <hr class="garis-atas">
-    </div>
-
+<body>
+<div class="tabel-wrapper">
     <h1>Jadwal Perkuliahan Semester 1</h1>
 
-        <table> 
-            <caption>Jadwal Perkuliahan Semester 1</caption> 
+    <div class="hiasan">
+        <span></span>
+        ♡ ° ♡ ° ♡
+        <span></span>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Hari</th>
+                    <th rowspan="2">Jam</th>
+                    <th colspan="2">Mata Kuliah</th>
+                    <th rowspan="2">Ruangan</th>
+                </tr>
+                <tr>
+                    <th>Kode</th>
+                    <th>Nama Mata Kuliah</th>
+                </tr>
+            </thead>
 
-            <thead> 
-                <tr> 
-                    <th bgcolor="#800000" rowspan="2">Hari</th> 
-                    <th bgcolor="#800000" rowspan="2">Jam</th> 
-                    <th bgcolor="#800000" colspan="2">Mata Kuliah</th> 
-                    <th bgcolor="#800000" rowspan="2">Ruangan</th> 
-                </tr> 
-                    <tr> 
-                        <th bgcolor="#FF00FF">Kode</th> 
-                        <th bgcolor="#FF00FF">Nama Mata Kuliah</th> 
-                    </tr> 
-            </thead> 
-            
-            <tbody> 
-                <!-- Senin --> 
-                 <tr> 
-                    <td class="hari" rowspan="2">Senin</td> 
-                    <td class="jam">08:00 - 10:00</td> 
-                    <td class="kode">IF101</td> 
-                    <td>Pemrograman Web</td> 
-                    <td class="ruangan">Lab 1</td> 
-                </tr> 
-                <tr> 
-                    <td class="jam">10:00 - 12:00</td> 
-                    <td class="kode">IF102</td> 
-                    <td>Basis Data</td> 
-                    <td class="ruangan">Lab 2</td> 
-                </tr> 
+            <tbody>
+                <tr>
+                    <td class="hari" rowspan="2">Senin</td>
+                    <td>08:00 - 10:00</td>
+                    <td>IF101</td>
+                    <td>Pemrograman Web</td>
+                    <td>Lab 1</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 12:00</td>
+                    <td>IF102</td>
+                    <td>Basis Data</td>
+                    <td>Lab 2</td>
+                </tr>
 
-                <!-- Selasa --> 
-                 <tr> 
-                    <td class="hari" rowspan="3">Selasa</td> 
-                    <td class="jam">08:00 - 10:00</td> 
-                    <td class="kode">IF103</td> 
-                    <td>Algoritma</td> 
-                    <td class="ruangan">Ruang 201</td> 
-                </tr> 
-                <tr> 
-                    <td class="jam">10:00 - 12:00</td> 
-                    <td class="kode">IF104</td> 
-                    <td>Sistem Operasi</td> 
-                    <td class="ruangan">Ruang 202</td> 
-                </tr> 
-                <tr> 
-                    <td class="jam">13:00 - 15:00</td> 
-                    <td class="kode">IF105</td> 
-                    <td>Jaringan Komputer</td> 
-                    <td class="ruangan">Lab 3</td> 
-                </tr> 
-                <!-- Rabu --> 
-                <tr> 
-                    <td class="hari" rowspan="2">Rabu</td> 
-                    <td class="jam">08:00 - 10:00</td> 
-                    <td class="kode">IF106</td> 
-                    <td>Pemrograman Mobile</td> 
-                    <td class="ruangan">Lab 4</td> 
-                </tr> 
-                <tr> 
-                    <td class="jam">10:00 - 12:00</td> 
-                    <td class="kode">IF107</td> 
-                    <td>Rekayasa Perangkat Lunak</td> 
-                    <td class="ruangan">Ruang 203</td> 
-                </tr> 
-                <!-- Kegiatan Akademik --> 
-                <tr> 
-                    <td colspan="4">Kegiatan Akademik / Seminar</td> 
-                    <td class="ruangan">Aula</td> 
-                </tr> 
-                <!-- Total Mata Kuliah --> 
-                <tr> 
-                    <td bgcolor="#C0C0C0" colspan="2" class="mata kuliah"><b>Total Mata Kuliah</b></td> 
-                    <td bgcolor="#C0C0C0" colspan="2" class="total"><b>7 Mata Kuliah</b></td> 
-                    <td bgcolor="#C0C0C0" class="total">-</td> 
-                </tr> 
-            </tbody> 
-        </table> 
+                <tr>
+                    <td class="hari" rowspan="3">Selasa</td>
+                    <td>08:00 - 10:00</td>
+                    <td>IF103</td>
+                    <td>Algoritma</td>
+                    <td>Ruang 201</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 12:00</td>
+                    <td>IF104</td>
+                    <td>Sistem Operasi</td>
+                    <td>Ruang 202</td>
+                </tr>
+                <tr>
+                    <td>13:00 - 15:00</td>
+                    <td>IF105</td>
+                    <td>Jaringan Komputer</td>
+                    <td>Lab 3</td>
+                </tr>
 
-        <div class="container">
-            <hr class="garis-bawah">
-        </div>
+                <tr>
+                    <td class="hari" rowspan="2">Rabu</td>
+                    <td>08:00 - 10:00</td>
+                    <td>IF106</td>
+                    <td>Pemrograman Mobile</td>
+                    <td>Lab 4</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 12:00</td>
+                    <td>IF107</td>
+                    <td>Rekayasa Perangkat Lunak</td>
+                    <td>Ruang 203</td>
+                </tr>
 
-    </body> 
+                <tr>
+                    <td colspan="4" class="kegiatan">
+                        Kegiatan Akademik / Seminar
+                    </td>
+                    <td>Aula</td>
+                </tr>
+
+                <tr class="total">
+                    <td class="hari" colspan="2">Total Mata Kuliah</td>
+                    <td class="hari" colspan="2">7 Mata Kuliah</td>
+                    <td class="hari">-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
 </html>
