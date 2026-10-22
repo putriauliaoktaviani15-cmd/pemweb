@@ -1,60 +1,105 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hobi</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <style>
-        body {
-            font-family: "Times New Roman", Times, serif;
-        }
-    </style>
-    <style>
-        h1, h2 {
-            line-height: 1.3;
-        }
-    </style>
-    <body>
-        <nav class="navbar">
-            <a href="index.html">Profil Mahasiswa</a>
-            <a href="about-me.html">Tentang Saya</a>
-            <a href="hobbies.html">Hobi</a>
-            <a href="educations.html">Riwayat Pendidikan</a>
-            <a href="course-schedule.html">Jadwal Kuliah</a>
-            <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
-            <a href="table2.html">Jadwal Perkuliahan Komputer</a>
-            <a href="daftar_online.html">Formulir Pendaftaran</a>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobi</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="ico" href="icon putri.ico">
+</head>
+<body>
 
-        <div class="container">
-            <hr class="garis-atas">
-        </div>
-       
-        <!-- Hobi -->
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <a href="index.html">Profil Mahasiswa</a>
+        <a href="about-me.html">Tentang Saya</a>
+        <a href="hobbies.html" class="active">Hobi</a>
+        <a href="educations.html">Riwayat Pendidikan</a>
+        <a href="course-schedule.html">Jadwal Kuliah</a>
+        <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
+        <a href="table2.html">Jadwal Perkuliahan Komputer</a>
+        <a href="daftar_online.html">Formulir Pendaftaran</a>
+        <a href="table3.html">Laporan Nilai Mahasiswa TI-2024</a>
+    </nav>
+
+    <!-- Konten Hobi -->
+    <main class="hobi-container">
+
         <h1>Hobi</h1>
 
-        <p>Beberapa hobi saya adalah:
-            <ul>
-                <li>Membaca</li>
-                <li>Olahraga</li>
-                <li>Bermain game</li>
-                <li>Fotografi</li>
-            </ul>
-        </p>
+        <div class="hiasan">
+            <span></span>
+            ♡ ˚ ♡ ˚ ♡
+            <span></span>
+        </div>
+
+        <p class="pengantar">Beberapa hobi saya adalah:</p>
+
+        <!-- Daftar Hobi -->
+        <section class="daftar-hobi">
+
+            <div class="kartu-hobi">
+                <div class="ikon-hobi">👩🏻‍💻</div>
+                <h3>Programming</h3>
+            </div>
+
+            <div class="kartu-hobi">
+                <div class="ikon-hobi">🎬</div>
+                <h3>Watching</h3>
+            </div>
+
+            <div class="kartu-hobi">
+                <div class="ikon-hobi">✍🏻</div>
+                <h3>Writting</h3>
+            </div>
+
+            <div class="kartu-hobi">
+                <div class="ikon-hobi">📷</div>
+                <h3>Fotografi</h3>
+            </div>
+
+        </section>
+
         <!-- Urutan Hobi Favorit -->
-        <h2>Urutan Hobi Favorit</h2>
-        <p> 
-            <ol type="A">
-                <li>Programming</li>
-                <li>Gaming</li>
-                <li>Badminton</li>
-                <li>Traveling</li>
-            </ol>
-        </p>
+        <section class="favorit">
 
-        <div class="container">
-            <hr class="garis-bawah">
+            <h2>Urutan Hobi Favorit</h2>
 
-    </body>
+            <div class="daftar-favorit">
+
+                <div class="item-favorit">
+                    <span class="nomor">01</span>
+                    <p>A. Programming</p>
+                </div>
+
+                <div class="item-favorit">
+                    <span class="nomor">02</span>
+                    <p>B. Writting</p>
+                </div>
+
+                <div class="item-favorit">
+                    <span class="nomor">03</span>
+                    <p>C. Watching</p>
+                </div>
+
+                <div class="item-favorit">
+                    <span class="nomor">04</span>
+                    <p>D. Traveling</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="hiasan hiasan-bawah">
+            <span></span>
+            ♡ ˚ ♡ ˚ ♡
+            <span></span>
+        </div>
+    <div class="kalimat-penutup">
+        Terus belajar, berkembang, dan menciptakan hal baru.
+    </div>
+    </main>
+
+</body>
+</html>
