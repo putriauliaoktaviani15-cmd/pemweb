@@ -5,18 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulir Pendaftaran</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="ico" href="icon putri.ico">
         </head>
         
         <style>
             body {
-                font-family: "Times New Roman", Times, serif;
+                font-family: Georgia, "Times New Roman", serif;
             }
         </style>
         <style>
+            h1 {
+                font-size: 40px;
+                font: Georgia, "Times New Roman", serif;
+            }
+
+            body {
+             font-family: Georgia, "Times New Roman", serif;
+             text-align: center;
+             font-size: 20px;
+              } 
+
             form {
-                width: 400px;
-                margin: 0 auto;
+                width:  400px;
+                text-align: center;
             }
 
             label {
@@ -32,11 +44,14 @@
             input[type="date"],
             select,
             textarea {
-                width: 100%;
-                padding: 8px;
-                margin-bottom: 10px;
+                width: 35%;
+                padding: 10px;
+                margin: 10px auto 40px auto;
+                display: block;
+                box-sizing: border-box;
                 border: 1px solid #ccc;
                 border-radius: 4px;
+                text-align: center;
             }
 
             button {
@@ -54,6 +69,7 @@
             }
         </style>
         <body>
+            
             <nav class="navbar">
                 <a href="index.html">Profil Mahasiswa</a>
                 <a href="about-me.html">Tentang Saya</a>
@@ -63,14 +79,20 @@
                 <a href="table1.html">Jadwal Perkuliahan Semester 1</a>
                 <a href="table2.html">Jadwal Perkuliahan Komputer</a>
                 <a href="daftar_online.html">Formulir Pendaftaran</a>
+                <a href="table3.html">Laporan Nilai Mahasiswa TI-2024</a>
             </nav>
             
-        <div class="container">
-            <hr class="garis-atas">
-        </div>
-
+        <div class="tabel-wrapper">
             <!-- Formulir Pendaftaran -->
             <h1>Formulir Pendaftaran</h1>
+
+            <div class="hiasan">
+                <span></span>
+                ♡ ˚ ♡ ˚ ♡
+                <span></span>
+            </div>
+
+            <div class="table-container">
 
             <!-- Nama -->
             <from>
@@ -142,11 +164,13 @@
             <button type="submit">Kirim</button>
             <button type="reset">Reset</button>
             </from>
+        </div>   
 
         <div class="container">
             <hr class="garis-bawah">
         </div>
-
+        </div>
         </body>
 </html>
             
+
